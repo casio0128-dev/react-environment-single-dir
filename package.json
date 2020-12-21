@@ -25,7 +25,9 @@
     "react-scripts": "4.0.0",
     "redux": "^4.0.5",
     "redux-toolkit": "^1.1.2",
-    "typescript": "^4.0.3",
+    // https://qiita.com/makishy/items/913e20dff7caf458c965
+    // build時にエラーが出てしまうため、上記の対応を入れています。
+    "typescript": "~4.0.3",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
